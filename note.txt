@@ -9,4 +9,10 @@ B3 đẩy các đoạn code lên trên github lưu trữ bằng 3 bước thần
         - git add cộng tên file dùng để đẩy file lên khu vực staging area
         - git status kiểm tra các file đang nằm trong khu vực staging area
         - git reset trả về trạng thái ban đầu chưa đưa lên staging area
-        - git add . đẩy tất cả các file có sự thay đổi lên khu vực staging area
+        - git add . or -A đẩy tất cả các file có sự thay đổi lên khu vực staging area
+    + lệnh git commit -m "nội dung tin nhắn để chúng ta khai báo nội dung thay đổi code"
+        - lệnh git log giúp kiểm tra tất cả các commit đang có
+        - git reset -- hard + id commit giúp đưa code chúng ta quay lại về lại đúng với cái commit đang có
+    + lệnh git push giúp đẩy code từ local lên remote
+        - nếu như đây là lần đầu tiên đẩy code lên remote thì sử dụng git push -u origin tenNhanh
+    +khi là người tham gia dùng git clone + tên url
