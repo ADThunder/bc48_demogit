@@ -27,4 +27,9 @@ khi chúng ta có một số sự thay đổi code bên 1 nhánh khi chuyển qu
     +git add . để đẩy tất cả các file thay đổi lên staging area và sau đó cần chạy lệnh git commit -m "message" để ghi lại phiên bản code đã thay đổi tại  nhánh đó
 lệnh tạo ra một nhánh và chuyển tới nhánh đó "git checkout -b tenNhanh
 lưu ý khi tạo một nhánh : khi chúng ta tạo một nhánh thì tất cả code trong nhánh đó sẽ giống với code của nhánh đó mà chúng ta đứng ngay đó tạo
+
+lệnh để xoá một nhánh git branch -D tenNhanh
     
+thực hành tạo nhánh và đẩy nhánh đó lên remote repository
+b1 tạo nhánh và chuyển sang nhánh đó
+b2 đẩy những sự thay đổi lên staging area, sau đó tạo commit và dùng lệnh git push -u origin tenNhanhMoi vì nhánh này lần đầu đẩy lên remote repository
