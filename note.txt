@@ -16,3 +16,13 @@ B3 đẩy các đoạn code lên trên github lưu trữ bằng 3 bước thần
     + lệnh git push giúp đẩy code từ local lên remote
         - nếu như đây là lần đầu tiên đẩy code lên remote thì sử dụng git push -u origin tenNhanh
     +khi là người tham gia dùng git clone + tên url
+
+
+
+tạo nhánh (Branch)
+lệnh tạo nhánh :git branch tenNhanh
+lệnh để kiểm tra nhánh đã tạo: git branch
+lệnh để chuyển sang 1 nhánh khác : git checkout+tên nhánh
+khi chúng ta có một số sự thay đổi code bên 1 nhánh khi chuyển qua 1 nhánh mới cần phải thực hiện 2 lệnh
+    +git add . để đẩy tất cả các file thay đổi lên staging area và sau đó cần chạy lệnh git commit -m "message" để ghi lại phiên bản code đã thay đổi tại  nhánh đó
+    
