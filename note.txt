@@ -27,4 +27,8 @@ khi chúng ta có một số sự thay đổi code bên 1 nhánh khi chuyển qu
     +git add . để đẩy tất cả các file thay đổi lên staging area và sau đó cần chạy lệnh git commit -m "message" để ghi lại phiên bản code đã thay đổi tại  nhánh đó
 lệnh tạo ra một nhánh và chuyển tới nhánh đó "git checkout -b tenNhanh
 lưu ý khi tạo một nhánh : khi chúng ta tạo một nhánh thì tất cả code trong nhánh đó sẽ giống với code của nhánh đó mà chúng ta đứng ngay đó tạo
+
+MERGE nhánh : khi merge nhánh cần xác định xem nhánh nào sẽ lấy code vào bên trong
+trước tên xác định sẽ lấy tất cả code từ nhánh devDung bỏ vào master
+đi tới ngay tại nhánh sẽ đc thêm code vào và chạy lệnh git merge +tenNhanh đc merge
     
